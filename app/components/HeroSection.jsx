@@ -1,26 +1,9 @@
 'use client';
 
 import React from 'react';
-import { motion }_from_ 'framer-motion';
-// Placeholder for AnimatedHueneuLogo - will be implemented in a later batch
-const AnimatedHueneuLogo = () => (
-  <div className="w-48 h-48 bg-neutral-200 flex items-center justify-center rounded-full shadow-lg">
-    <span className="text-primary font-display text-2xl">hueneu</span>
-  </div>
-);
-
-// Placeholder for ScrollDownIndicator - will be implemented in a later batch
-const ScrollDownIndicator = () => (
-  <motion.div 
-    className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
-    animate={{ y: [0, 10, 0] }}
-    transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
-  >
-    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-primary">
-      <path d="M12 5V19M12 19L7 14M12 19L17 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-    </svg>
-  </motion.div>
-);
+import { motion } from 'framer-motion'; // Corrected import
+import AnimatedHueneuLogo from './AnimatedHueneuLogo'; // Added import
+import ScrollDownIndicator from './ScrollDownIndicator'; // Added import
 
 const HeroSection = () => {
   return (
@@ -34,7 +17,7 @@ const HeroSection = () => {
         transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
         className="text-center flex flex-col items-center"
       >
-        {/* Animated hueneu logo reveal placeholder */}
+        {/* Animated hueneu logo reveal placeholder - now uses actual component */}
         <AnimatedHueneuLogo />
 
         <motion.h1 
@@ -55,7 +38,7 @@ const HeroSection = () => {
         </motion.p>
       </motion.div>
       
-      {/* Smooth scroll-down indicator placeholder */}
+      {/* Smooth scroll-down indicator placeholder - now uses actual component */}
       <ScrollDownIndicator />
 
       {/* Subtle background elements for visual interest */}

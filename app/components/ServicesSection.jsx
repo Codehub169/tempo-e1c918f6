@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import { motion }_from_ 'framer-motion';
-import { Palette, Package, MessageSquare, Printer, BookOpen, Sparkles }_from_ 'lucide-react';
+import { motion } from 'framer-motion'; // Corrected import
+import { Palette, Package, MessageSquare, Printer, BookOpen, Sparkles } from 'lucide-react'; // Corrected import
 
 const services = [
   {

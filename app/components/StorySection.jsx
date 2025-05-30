@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import { motion }_from_ 'framer-motion';
-import { Sparkles }_from_ 'lucide-react';
+import { motion } from 'framer-motion'; // Corrected import
+import { Sparkles } from 'lucide-react'; // Corrected import
 
 const StorySection = () => {
   return (
@@ -29,7 +29,9 @@ const StorySection = () => {
             'Neu' is the grounding neutrality, the calm foundation, the intentional whitespace that allows the story to breathe and resonate. It's the sophisticated whisper that makes a lasting impact.
           </p>
           <p className="font-body text-lg text-neutral-700 leading-relaxed">
-            Together, they create designs that are not just seen, but felt – balanced, evocative, and always memorable.
+            Together, they create designs that are not just seen, but felt 	
+
+            
           </p>
         </motion.div>
 
@@ -55,7 +57,7 @@ const StorySection = () => {
               viewport={{ once: true}}
               transition={{delay: 0.8, type: 'spring', stiffness:300, damping:10}}
             >
-              ✨
+              
             </motion.div>
           </div>
         </motion.div>
