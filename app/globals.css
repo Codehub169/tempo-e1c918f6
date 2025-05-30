@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  color: theme('colors.neutral-dark'); /* Default text color */
+  background-color: theme('colors.white'); /* Default background */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), sans-serif;
+}

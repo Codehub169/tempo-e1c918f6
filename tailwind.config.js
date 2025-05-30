@@ -19,8 +19,8 @@ module.exports = {
         black: '#000000',
       },
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
-        display: ['Poppins', 'sans-serif'],
+        sans: ['var(--font-inter)', 'sans-serif'],
+        display: ['var(--font-poppins)', 'sans-serif'],
       },
       borderRadius: {
         sm: '4px',
