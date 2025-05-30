@@ -1,0 +1,20 @@
+<svg viewBox="0 0 200 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+    .hue-text {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      font-weight: 600;
+      fill: #E74C3C; /* Accent color */
+    }
+    .neu-text {
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      fill: #34495E; /* Primary color */
+    }
+  </style>
+  <text x="10" y="35">
+    <tspan class="hue-text">hue</tspan><tspan class="neu-text">neu</tspan>
+  </text>
+</svg>
