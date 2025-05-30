@@ -2,8 +2,8 @@
 set -e
 
 echo "Ensuring project dependencies are installed..."
-# Install production dependencies only
-npm install --omit=dev 
+# Install all dependencies, including devDependencies needed for build
+npm install 
 
 echo "Building the application for production..."
 npm run build
